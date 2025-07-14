@@ -1,5 +1,5 @@
 
-describe('Logout user', () => {
+describe('Logout User', () => {
   beforeEach(() => {
     //1.Launch browser and 2.Navigate to url 'http://automationexercise.com'
     cy.visit('http://automationexercise.com')

@@ -1,5 +1,5 @@
 
-describe('Register existing user', () => {
+describe('Register Existing User', () => {
   beforeEach(() => {
     //1.Launch browser and 2.Navigate to url 'http://automationexercise.com'
     cy.visit('http://automationexercise.com')

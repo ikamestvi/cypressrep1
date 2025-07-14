@@ -1,5 +1,5 @@
 
-describe('Login user', () => {
+describe('Login User', () => {
   beforeEach(() => {
     //1.Launch browser and 2.Navigate to url 'http://automationexercise.com'
     cy.visit('http://automationexercise.com')
@@ -45,6 +45,5 @@ describe('Login user', () => {
 
     //10.10. Verify that 'ACCOUNT DELETED!' is visible
     cy.get('[data-qa="account-deleted"]').should('be.visible')
-    
   })
 })

@@ -93,5 +93,6 @@ describe('Register user', () => {
     //18. Verify that 'ACCOUNT DELETED!' is visible and click 'Continue' button
     cy.get('[data-qa="account-deleted"]').should('be.visible')
     cy.get('[data-qa="continue-button"]').click()
+    
   })
 })

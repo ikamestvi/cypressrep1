@@ -1,5 +1,5 @@
 
-describe('Login incorrect user', () => {
+describe('Login Incorrect User', () => {
   beforeEach(() => {
     //1.Launch browser and 2.Navigate to url 'http://automationexercise.com'
     cy.visit('http://automationexercise.com')
