@@ -24,6 +24,7 @@ describe('Login Incorrect User', () => {
   //პაროლები ყოველი მცდელობისას უნდა შეიცვალოს არსებულიდან ახალზე
   //paroli123
   //12345678ffrr
+  //
 
 
 
@@ -75,7 +76,7 @@ describe('Login Incorrect User', () => {
 
 
 
-  
+
   it('change password', () => {
     cy.get('ul.side_account_list > li').eq(3).click()
     cy.get('#PasswordFrm_current_password').clear().type(curPassWord)
