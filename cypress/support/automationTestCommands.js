@@ -5,5 +5,4 @@ Cypress.Commands.add('loginAuto', (email, password) => {
     cy.get('[name="loginname"]').clear().type("ika_ika")
     cy.get('[name="password"]').clear().type('12345678ffrr')
     cy.get('#loginFrm > fieldset > .btn').click()
-    //
  })
